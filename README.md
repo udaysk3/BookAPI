@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Book App</title>
 </head>
 <body>
     <h1>Your Book App</h1>
@@ -25,9 +24,9 @@
         Your Book App exposes the following API endpoints:
     </p>
     <ul>
-        <li><strong>Books:</strong> /books/ (GET, POST, PUT, DELETE)</li>
+        <li><strong>Books:</strong> /books/ (GET, POST, PUT, PATCH DELETE)</li>
         <li><strong>User Registration:</strong> /register/ (POST)</li>
-        <li><strong>Email Verification:</strong> /verify/ (GET)</li>
+        <li><strong>Email Verification:</strong> /verify?username=user_id (GET)</li>
     </ul>
     <h2>Email Configuration</h2>
     <p>
